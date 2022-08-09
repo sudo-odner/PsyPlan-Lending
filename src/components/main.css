@@ -1,0 +1,340 @@
+@font-face {
+    font-family: "Montsereat-Regular";
+    src: url('../deteils/font/montserrat/Montserrat-Regular.otf')
+}
+@font-face {
+    font-family: "Montsereat-Medium";
+    src: url('../deteils/font/montserrat/Montserrat-Medium.otf')
+}
+@font-face {
+    font-family: "Montsereat-SemiBold";
+    src: url('../deteils/font/montserrat/Montserrat-SemiBold.otf')
+}
+@font-face {
+    font-family: "Montsereat-Blod";
+    src: url('../deteils/font/montserrat/Montserrat-Bold.otf')
+}
+
+.MontRegular{
+    font-family: "Montsereat-Regular";
+}
+.MontMedium{
+    font-family: "Montsereat-Medium";
+}
+.MontSemiBold{
+    font-family: "Montsereat-SemiBold";
+}
+.MontBold{
+    font-family: "Montsereat-Bold";
+}
+
+.S1{
+    font-size: 1px;
+}
+.S2{
+    font-size: 2px;
+}
+.S3{
+    font-size: 3px;
+}
+.S4{
+    font-size: 4px;
+}
+.S5{
+    font-size: 5px;
+}
+.S6{
+    font-size: 6px;
+}
+.S7{
+    font-size: 7px;
+}
+.S8{
+    font-size: 8px;
+}
+.S9{
+    font-size: 9px;
+}
+.S10{
+    font-size: 10px;
+}
+.S11{
+    font-size: 11px;
+}
+.S12{
+    font-size: 12px;
+}
+.S13{
+    font-size: 13px;
+}
+.S14{
+    font-size: 14px;
+}
+.S15{
+    font-size: 15px;
+}
+.S16{
+    font-size: 16px;
+}
+.S17{
+    font-size: 17px;
+}
+.S18{
+    font-size: 18px;
+}
+.S19{
+    font-size: 19px;
+}
+.S20{
+    font-size: 20px;
+}
+.S21{
+    font-size: 21px;
+}
+.S22{
+    font-size: 22px;
+}
+.S23{
+    font-size: 23px;
+}
+.S24{
+    font-size: 24px;
+}
+.S25{
+    font-size: 25px;
+}
+.S26{
+    font-size: 26px;
+}
+.S27{
+    font-size: 27px;
+}
+.S28{
+    font-size: 28px;
+}
+.S29{
+    font-size: 29px;
+}
+.S30{
+    font-size: 30px;
+}
+.S31{
+    font-size: 31px;
+}
+.S32{
+    font-size: 32px;
+}
+.S33{
+    font-size: 33px;
+}
+.S34{
+    font-size: 34px;
+}
+.S35{
+    font-size: 35px;
+}
+.S36{
+    font-size: 36px;
+}
+.S37{
+    font-size: 37px;
+}
+.S38{
+    font-size: 38px;
+}
+.S39{
+    font-size: 39px;
+}
+.S40{
+    font-size: 40px;
+}
+.S41{
+    font-size: 41px;
+}
+.S42{
+    font-size: 42px;
+}
+.S43{
+    font-size: 43px;
+}
+.S44{
+    font-size: 44px;
+}
+.S45{
+    font-size: 45px;
+}
+.S46{
+    font-size: 46px;
+}
+.S47{
+    font-size: 47px;
+}
+.S48{
+    font-size: 48px;
+}
+.S49{
+    font-size: 49px;
+}
+.S50{
+    font-size: 50px;
+}
+.S51{
+    font-size: 51px;
+}
+.S52{
+    font-size: 52px;
+}
+.S53{
+    font-size: 53px;
+}
+.S54{
+    font-size: 54px;
+}
+.S55{
+    font-size: 55px;
+}
+.S56{
+    font-size: 56px;
+}
+.S57{
+    font-size: 57px;
+}
+.S58{
+    font-size: 58px;
+}
+.S59{
+    font-size: 59px;
+}
+.S60{
+    font-size: 60px;
+}
+.S61{
+    font-size: 61px;
+}
+.S62{
+    font-size: 62px;
+}
+.S63{
+    font-size: 63px;
+}
+.S64{
+    font-size: 64px;
+}
+.S65{
+    font-size: 65px;
+}
+.S66{
+    font-size: 66px;
+}
+.S67{
+    font-size: 67px;
+}
+.S68{
+    font-size: 68px;
+}
+.S69{
+    font-size: 69px;
+}
+.S70{
+    font-size: 70px;
+}
+.S71{
+    font-size: 71px;
+}
+.S72{
+    font-size: 72px;
+}
+.S73{
+    font-size: 73px;
+}
+.S74{
+    font-size: 74px;
+}
+.S75{
+    font-size: 75px;
+}
+.S76{
+    font-size: 76px;
+}
+.S77{
+    font-size: 77px;
+}
+.S78{
+    font-size: 78px;
+}
+.S79{
+    font-size: 79px;
+}
+.S80{
+    font-size: 80px;
+}
+.S81{
+    font-size: 81px;
+}
+.S82{
+    font-size: 82px;
+}
+.S83{
+    font-size: 83px;
+}
+.S84{
+    font-size: 84px;
+}
+.S85{
+    font-size: 85px;
+}
+.S86{
+    font-size: 86px;
+}
+.S87{
+    font-size: 87px;
+}
+.S88{
+    font-size: 88px;
+}
+.S89{
+    font-size: 89px;
+}
+.S90{
+    font-size: 90px;
+}
+.S91{
+    font-size: 91px;
+}
+.S92{
+    font-size: 92px;
+}
+.S93{
+    font-size: 93px;
+}
+.S94{
+    font-size: 94px;
+}
+.S95{
+    font-size: 95px;
+}
+.S96{
+    font-size: 96px;
+}
+.S97{
+    font-size: 97px;
+}
+.S98{
+    font-size: 98px;
+}
+.S99{
+    font-size: 99px;
+}
+
+.CW{
+    color: white;
+}
+.indent {
+    max-width: 1440px; 
+    padding: 0px 60px 0px 60px;
+    margin: auto;
+}
+
+.sd{
+    height: 100vh;
+}
