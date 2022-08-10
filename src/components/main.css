@@ -1,33 +1,3 @@
-@font-face {
-    font-family: "Montsereat-Regular";
-    src: url('../deteils/font/montserrat/Montserrat-Regular.otf')
-}
-@font-face {
-    font-family: "Montsereat-Medium";
-    src: url('../deteils/font/montserrat/Montserrat-Medium.otf')
-}
-@font-face {
-    font-family: "Montsereat-SemiBold";
-    src: url('../deteils/font/montserrat/Montserrat-SemiBold.otf')
-}
-@font-face {
-    font-family: "Montsereat-Blod";
-    src: url('../deteils/font/montserrat/Montserrat-Bold.otf')
-}
-
-.MontRegular{
-    font-family: "Montsereat-Regular";
-}
-.MontMedium{
-    font-family: "Montsereat-Medium";
-}
-.MontSemiBold{
-    font-family: "Montsereat-SemiBold";
-}
-.MontBold{
-    font-family: "Montsereat-Bold";
-}
-
 .S1{
     font-size: 1px;
 }
@@ -326,13 +296,65 @@
     font-size: 99px;
 }
 
+@font-face {
+    font-family: "Montsereat-Regular";
+    src: url('../deteils/font/montserrat/Montserrat-Regular.otf')
+}
+@font-face {
+    font-family: "Montsereat-Medium";
+    src: url('../deteils/font/montserrat/Montserrat-Medium.otf')
+}
+@font-face {
+    font-family: "Montsereat-SemiBold";
+    src: url('../deteils/font/montserrat/Montserrat-SemiBold.otf')
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../deteils/font/montserrat/Montserrat-Bold.otf')
+}
+
+.MontRegular{
+    font-family: "Montsereat-Regular";
+}
+.MontMedium{
+    font-family: "Montsereat-Medium";
+}
+.MontSemiBold{
+    font-family: "Montsereat-SemiBold";
+}
+.MontBold{
+    font-family: "Montserrat-Bold";
+}
+
 .CW{
     color: white;
+}
+.CW-70{
+    color: rgba(255, 255, 255, 0.7);
+}
+.CM{
+    color: #CFCBAF;
 }
 .indent {
     max-width: 1440px; 
     padding: 0px 60px 0px 60px;
     margin: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.down-100{
+    margin-bottom: 100px;
+}
+
+.down-60{
+    margin-bottom: 60px;
+}
+
+.down-15{
+    margin-bottom: 15px;
 }
 
 .sd{
