@@ -1,0 +1,28 @@
+.Description-back{
+    background-color: white;
+}
+
+.Description-main{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 60px 120px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Description-img{
+    max-width: 500px;
+    max-height: 847px;
+    width: 100%;
+    height: 100%;
+}
+
+.Description-txt-1 {
+    max-width: 760px;
+}
+
+.Description-txt-2 {
+    max-width: 600px;
+}

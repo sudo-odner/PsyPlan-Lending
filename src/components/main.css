@@ -332,6 +332,13 @@
 .CW-70{
     color: rgba(255, 255, 255, 0.7);
 }
+.CB{
+    color: white;
+}
+.CB-70{
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .CM{
     color: #CFCBAF;
 }

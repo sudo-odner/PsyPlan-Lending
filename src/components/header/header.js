@@ -13,8 +13,8 @@ function Header() {
     return(
         <div className='Header_beck'>
             <div className="Header_main">
-                <div className="left"><img className="logo" src={logo} alt=""></img></div>
-                <div className="rigth">
+                <div className="Header-left"><img className="logo" src={logo} alt=""></img></div>
+                <div className=" Header-rigth">
                     <button className="MontRegular S16 CW">Команда</button>
                     <button className="MontRegular S16 left-indent CW">Описание</button>
                     <button className="MontRegular S16 left-indent CW">Контакты</button>
