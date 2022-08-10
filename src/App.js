@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Problem from './components/problem/problem';
 import Description from './components/description/description';
 import Small_Description from './components/small_description/small_description';
+import Through from './components/through/through';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Small_Description></Small_Description>
             <Problem></Problem>
             <Description></Description>
+            <Through></Through>
         </div>
     </div>
   );
