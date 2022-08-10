@@ -1,0 +1,55 @@
+.Element{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+p{
+    margin: auto;
+}
+
+.Element-first-left{
+    background-color: #173038;
+    border-radius: 20px;
+    display:inline-block;
+    padding: 40px 50px 0px 50px;
+    margin-right: 30px;
+}
+
+.Element-first-right{
+    background-color: #173038;
+    border-radius: 20px;
+    display:inline-block;
+    padding: 40px 50px 0px 50px;
+    margin-left: 30px;
+}
+
+.Element-down{
+    background-color: #173038;
+    border-radius: 20px;
+    margin-right: auto;
+    display:inline-block;
+    padding: 40px 30px 40px 30px;
+    margin-bottom: 30px;
+}
+
+.Element-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Element-down-right{
+    text-align: right;
+    margin-right: 0%;
+}
+
+.Element-down-left{
+    text-align: right;
+    margin-left: 0%;
+}
+
+.Element-second-right {
+    display: flex;
+    flex-direction: column;
+}

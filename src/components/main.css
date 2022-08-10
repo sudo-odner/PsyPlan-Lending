@@ -352,16 +352,43 @@
     text-align: center;
 }
 
+.right-text {
+    text-align: right;
+}
+
 .down-100{
     margin-bottom: 100px;
+}
+
+.down-110{
+    margin-bottom: 110px;
+}
+
+.down-120{
+    margin-bottom: 120px;
+}
+
+.down-70{
+    margin-bottom: 70px;
 }
 
 .down-60{
     margin-bottom: 60px;
 }
 
+.down-30{
+    margin-bottom: 30px;
+}
+
 .down-15{
     margin-bottom: 15px;
+}
+
+.down--30{
+    margin-bottom: -30px;
+}
+.down--40{
+    margin-bottom: -40px;
 }
 
 .sd{
