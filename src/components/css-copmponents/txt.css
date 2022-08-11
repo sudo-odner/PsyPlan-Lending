@@ -1,0 +1,753 @@
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Black.otf')
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Bold.otf')
+}
+@font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url('../../visual-components/font/Montserrat/Montserrat-ExtraBold.otf')
+}
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url('../../visual-components/font/Montserrat/Montserrat-ExtraLight.otf')
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Light.otf')
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Medium.otf')
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Regular.otf')
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../../visual-components/font/Montserrat/Montserrat-SemiBold.otf')
+}
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Thin.otf')
+}
+
+.MontBlack{
+    font-family: "Montserrat-Black";
+}
+.MontBold{
+    font-family: "Montserrat-Bold";
+}
+.MontExtraBold{
+    font-family: "Montserrat-ExtraBold";
+}
+.MontExtraLight{
+    font-family: "Montserrat-ExtraLight";
+}
+.MontLight{
+    font-family: "Montserrat-Light";
+}
+.MontMedium{
+    font-family: "Montserrat-Medium";
+}
+.MontRegular{
+    font-family: "Montserrat-Regular";
+}
+.MontSemiBold{
+    font-family: "Montserrat-SemiBold";
+}
+.MontThin{
+    font-family: "Montserrat-Thin";
+}
+
+.CW{
+    color: white;
+}
+.CW-70{
+    color: rgba(255, 255, 255, 0.7);
+}
+.CB{
+    color: white;
+}
+.CB-70{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.CM{
+    color: #CFCBAF;
+}
+
+.max-width-600{
+    max-width: 600px;
+}
+
+.center-text {
+    text-align: center;
+}
+.right-text {
+    text-align: right;
+}
+
+.S1{
+    font-size: 1px;
+}
+.S2{
+    font-size: 2px;
+}
+.S3{
+    font-size: 3px;
+}
+.S4{
+    font-size: 4px;
+}
+.S5{
+    font-size: 5px;
+}
+.S6{
+    font-size: 6px;
+}
+.S7{
+    font-size: 7px;
+}
+.S8{
+    font-size: 8px;
+}
+.S9{
+    font-size: 9px;
+}
+.S10{
+    font-size: 10px;
+}
+.S11{
+    font-size: 11px;
+}
+.S12{
+    font-size: 12px;
+}
+.S13{
+    font-size: 13px;
+}
+.S14{
+    font-size: 14px;
+}
+.S15{
+    font-size: 15px;
+}
+.S16{
+    font-size: 16px;
+}
+.S17{
+    font-size: 17px;
+}
+.S18{
+    font-size: 18px;
+}
+.S19{
+    font-size: 19px;
+}
+.S20{
+    font-size: 20px;
+}
+.S21{
+    font-size: 21px;
+}
+.S22{
+    font-size: 22px;
+}
+.S23{
+    font-size: 23px;
+}
+.S24{
+    font-size: 24px;
+}
+.S25{
+    font-size: 25px;
+}
+.S26{
+    font-size: 26px;
+}
+.S27{
+    font-size: 27px;
+}
+.S28{
+    font-size: 28px;
+}
+.S29{
+    font-size: 29px;
+}
+.S30{
+    font-size: 30px;
+}
+.S31{
+    font-size: 31px;
+}
+.S32{
+    font-size: 32px;
+}
+.S33{
+    font-size: 33px;
+}
+.S34{
+    font-size: 34px;
+}
+.S35{
+    font-size: 35px;
+}
+.S36{
+    font-size: 36px;
+}
+.S37{
+    font-size: 37px;
+}
+.S38{
+    font-size: 38px;
+}
+.S39{
+    font-size: 39px;
+}
+.S40{
+    font-size: 40px;
+}
+.S41{
+    font-size: 41px;
+}
+.S42{
+    font-size: 42px;
+}
+.S43{
+    font-size: 43px;
+}
+.S44{
+    font-size: 44px;
+}
+.S45{
+    font-size: 45px;
+}
+.S46{
+    font-size: 46px;
+}
+.S47{
+    font-size: 47px;
+}
+.S48{
+    font-size: 48px;
+}
+.S49{
+    font-size: 49px;
+}
+.S50{
+    font-size: 50px;
+}
+.S51{
+    font-size: 51px;
+}
+.S52{
+    font-size: 52px;
+}
+.S53{
+    font-size: 53px;
+}
+.S54{
+    font-size: 54px;
+}
+.S55{
+    font-size: 55px;
+}
+.S56{
+    font-size: 56px;
+}
+.S57{
+    font-size: 57px;
+}
+.S58{
+    font-size: 58px;
+}
+.S59{
+    font-size: 59px;
+}
+.S60{
+    font-size: 60px;
+}
+.S61{
+    font-size: 61px;
+}
+.S62{
+    font-size: 62px;
+}
+.S63{
+    font-size: 63px;
+}
+.S64{
+    font-size: 64px;
+}
+.S65{
+    font-size: 65px;
+}
+.S66{
+    font-size: 66px;
+}
+.S67{
+    font-size: 67px;
+}
+.S68{
+    font-size: 68px;
+}
+.S69{
+    font-size: 69px;
+}
+.S70{
+    font-size: 70px;
+}
+.S71{
+    font-size: 71px;
+}
+.S72{
+    font-size: 72px;
+}
+.S73{
+    font-size: 73px;
+}
+.S74{
+    font-size: 74px;
+}
+.S75{
+    font-size: 75px;
+}
+.S76{
+    font-size: 76px;
+}
+.S77{
+    font-size: 77px;
+}
+.S78{
+    font-size: 78px;
+}
+.S79{
+    font-size: 79px;
+}
+.S80{
+    font-size: 80px;
+}
+.S81{
+    font-size: 81px;
+}
+.S82{
+    font-size: 82px;
+}
+.S83{
+    font-size: 83px;
+}
+.S84{
+    font-size: 84px;
+}
+.S85{
+    font-size: 85px;
+}
+.S86{
+    font-size: 86px;
+}
+.S87{
+    font-size: 87px;
+}
+.S88{
+    font-size: 88px;
+}
+.S89{
+    font-size: 89px;
+}
+.S90{
+    font-size: 90px;
+}
+.S91{
+    font-size: 91px;
+}
+.S92{
+    font-size: 92px;
+}
+.S93{
+    font-size: 93px;
+}
+.S94{
+    font-size: 94px;
+}
+.S95{
+    font-size: 95px;
+}
+.S96{
+    font-size: 96px;
+}
+.S97{
+    font-size: 97px;
+}
+.S98{
+    font-size: 98px;
+}
+.S99{
+    font-size: 99px;
+}
+.S100{
+    font-size: 100px;
+}
+.S101{
+    font-size: 101px;
+}
+.S102{
+    font-size: 102px;
+}
+.S103{
+    font-size: 103px;
+}
+.S104{
+    font-size: 104px;
+}
+.S105{
+    font-size: 105px;
+}
+.S106{
+    font-size: 106px;
+}
+.S107{
+    font-size: 107px;
+}
+.S108{
+    font-size: 108px;
+}
+.S109{
+    font-size: 109px;
+}
+.S110{
+    font-size: 110px;
+}
+.S111{
+    font-size: 111px;
+}
+.S112{
+    font-size: 112px;
+}
+.S113{
+    font-size: 113px;
+}
+.S114{
+    font-size: 114px;
+}
+.S115{
+    font-size: 115px;
+}
+.S116{
+    font-size: 116px;
+}
+.S117{
+    font-size: 117px;
+}
+.S118{
+    font-size: 118px;
+}
+.S119{
+    font-size: 119px;
+}
+.S120{
+    font-size: 120px;
+}
+.S121{
+    font-size: 121px;
+}
+.S122{
+    font-size: 122px;
+}
+.S123{
+    font-size: 123px;
+}
+.S124{
+    font-size: 124px;
+}
+.S125{
+    font-size: 125px;
+}
+.S126{
+    font-size: 126px;
+}
+.S127{
+    font-size: 127px;
+}
+.S128{
+    font-size: 128px;
+}
+.S129{
+    font-size: 129px;
+}
+.S130{
+    font-size: 130px;
+}
+.S131{
+    font-size: 131px;
+}
+.S132{
+    font-size: 132px;
+}
+.S133{
+    font-size: 133px;
+}
+.S134{
+    font-size: 134px;
+}
+.S135{
+    font-size: 135px;
+}
+.S136{
+    font-size: 136px;
+}
+.S137{
+    font-size: 137px;
+}
+.S138{
+    font-size: 138px;
+}
+.S139{
+    font-size: 139px;
+}
+.S140{
+    font-size: 140px;
+}
+.S141{
+    font-size: 141px;
+}
+.S142{
+    font-size: 142px;
+}
+.S143{
+    font-size: 143px;
+}
+.S144{
+    font-size: 144px;
+}
+.S145{
+    font-size: 145px;
+}
+.S146{
+    font-size: 146px;
+}
+.S147{
+    font-size: 147px;
+}
+.S148{
+    font-size: 148px;
+}
+.S149{
+    font-size: 149px;
+}
+.S150{
+    font-size: 150px;
+}
+.S151{
+    font-size: 151px;
+}
+.S152{
+    font-size: 152px;
+}
+.S153{
+    font-size: 153px;
+}
+.S154{
+    font-size: 154px;
+}
+.S155{
+    font-size: 155px;
+}
+.S156{
+    font-size: 156px;
+}
+.S157{
+    font-size: 157px;
+}
+.S158{
+    font-size: 158px;
+}
+.S159{
+    font-size: 159px;
+}
+.S160{
+    font-size: 160px;
+}
+.S161{
+    font-size: 161px;
+}
+.S162{
+    font-size: 162px;
+}
+.S163{
+    font-size: 163px;
+}
+.S164{
+    font-size: 164px;
+}
+.S165{
+    font-size: 165px;
+}
+.S166{
+    font-size: 166px;
+}
+.S167{
+    font-size: 167px;
+}
+.S168{
+    font-size: 168px;
+}
+.S169{
+    font-size: 169px;
+}
+.S170{
+    font-size: 170px;
+}
+.S171{
+    font-size: 171px;
+}
+.S172{
+    font-size: 172px;
+}
+.S173{
+    font-size: 173px;
+}
+.S174{
+    font-size: 174px;
+}
+.S175{
+    font-size: 175px;
+}
+.S176{
+    font-size: 176px;
+}
+.S177{
+    font-size: 177px;
+}
+.S178{
+    font-size: 178px;
+}
+.S179{
+    font-size: 179px;
+}
+.S180{
+    font-size: 180px;
+}
+.S181{
+    font-size: 181px;
+}
+.S182{
+    font-size: 182px;
+}
+.S183{
+    font-size: 183px;
+}
+.S184{
+    font-size: 184px;
+}
+.S185{
+    font-size: 185px;
+}
+.S186{
+    font-size: 186px;
+}
+.S187{
+    font-size: 187px;
+}
+.S188{
+    font-size: 188px;
+}
+.S189{
+    font-size: 189px;
+}
+.S190{
+    font-size: 190px;
+}
+.S191{
+    font-size: 191px;
+}
+.S192{
+    font-size: 192px;
+}
+.S193{
+    font-size: 193px;
+}
+.S194{
+    font-size: 194px;
+}
+.S195{
+    font-size: 195px;
+}
+.S196{
+    font-size: 196px;
+}
+.S197{
+    font-size: 197px;
+}
+.S198{
+    font-size: 198px;
+}
+.S199{
+    font-size: 199px;
+}
+.S200{
+    font-size: 200px;
+}
+.S201{
+    font-size: 201px;
+}
+.S202{
+    font-size: 202px;
+}
+.S203{
+    font-size: 203px;
+}
+.S204{
+    font-size: 204px;
+}
+.S205{
+    font-size: 205px;
+}
+.S206{
+    font-size: 206px;
+}
+.S207{
+    font-size: 207px;
+}
+.S208{
+    font-size: 208px;
+}
+.S209{
+    font-size: 209px;
+}
+.S210{
+    font-size: 210px;
+}
+.S211{
+    font-size: 211px;
+}
+.S212{
+    font-size: 212px;
+}
+.S213{
+    font-size: 213px;
+}
+.S214{
+    font-size: 214px;
+}
+.S215{
+    font-size: 215px;
+}
+.S216{
+    font-size: 216px;
+}
+.S217{
+    font-size: 217px;
+}
+.S218{
+    font-size: 218px;
+}
+.S219{
+    font-size: 219px;
+}
+.S220{
+    font-size: 220px;
+}

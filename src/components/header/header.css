@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Medium.otf')
+}
+
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.Header-background{
+    position:absolute;
+    width: 100vw;
+    height: 60px;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid #191919;
+}
+
+.Header-object{
+    max-width: 1440px;
+    padding: 0px 60px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-left-object{
+    display: flex;
+    align-items: center;
+}
+
+.Header-right-object{
+    display: flex;
+    align-items: center;
+}
+
+.Header-left-object-img{
+    height: 40px;
+}
+
+.Header-right-obgect-txt{
+    font-family: "Montserrat-Medium";
+    color: white;
+    margin-right: 6px;
+    margin-left: 6px;
+}
