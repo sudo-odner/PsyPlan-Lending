@@ -7,11 +7,11 @@ function Face(){
         <div className='Face-background'>
             <div className='Face-object'>
                 <div className='Face-left-object'>
-                    <p className='MontBold S120'>
+                    <p className='Face-left-object-txt MontBold'>
                         <span className='CM'>Psy</span>
                         <span className='CW'>Plan</span>
                     </p>
-                    <p className='max-width-600 MontSemiBold S16 CW-70'>
+                    <p className='Face-left-object-txt-mini MontSemiBold CW-70'>
                         Приложение для оптимизации контакта пациента с психотерапевтом
                     </p>
                 </div>

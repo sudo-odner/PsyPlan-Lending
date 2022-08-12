@@ -20,10 +20,10 @@ button{
 
 .Header-object{
     max-width: 1440px;
-    padding: 0px 60px;
-    margin: 10px auto;
+    height: 100%;
+    padding: 0 60px;
+    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -38,7 +38,7 @@ button{
 }
 
 .Header-left-object-img{
-    height: 40px;
+    height: 30px;
 }
 
 .Header-right-obgect-txt{
@@ -46,4 +46,89 @@ button{
     color: white;
     margin-right: 6px;
     margin-left: 6px;
+    display: block;
+}
+
+.Header-right-obgect-phone{
+    margin-right: 6px;
+    margin-left: 6px;
+    display: none;
+}
+
+.Header-burger-background{
+    display: none;
+}
+.Header-burger{
+    display: none;
+}
+.Header-burger-background-on{
+    display: none;
+}
+.Header-burger-on{
+    display: none;
+}
+
+
+@media (max-width: 425px) {
+    .Header-right-obgect-phone{
+        display: block;
+    }
+    .Header-right-obgect-txt{
+        display: none;
+    }
+
+    .Header-object{
+        position: absolute;
+        padding: 0;
+        width: 100vw;
+    }
+    .Header-left-object{
+        margin-left: 60px;
+    }
+    
+    .Header-right-object{
+        margin-right: 60px;
+    }
+
+    .Header-burger-background{
+        display: none;
+    }
+    .Header-burger{
+        display: none;
+    }
+    
+    .Header-burger-background-on{
+        position:absolute;
+        z-index: 102;
+        width: 100vw;
+        height: 100vh;
+        background-color: #19191977;
+    }
+    .Header-burger-on{
+        position:relative;
+        z-index: 103;
+        width: 60vw;
+        height: 100vh;
+        background-color: #191919;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .Header-close{
+        display: block;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: 66px;
+        margin-bottom: 20px;
+    }
+    
+    .Header-txt{
+        font-family: "Montserrat-Medium";
+        color: white;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        display: block;
+    }
+    
 }
