@@ -1,0 +1,25 @@
+.Goal-object{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 60px;
+}
+
+.Goal-object-text{
+    max-width: 500px;
+}
+
+.Goal-object-text-1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.Goal-object-text-2{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Goal-object-text-3{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+}
