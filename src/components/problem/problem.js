@@ -11,11 +11,11 @@ function Problem(){
                 <p className='MontBold S20 Problem-object-main'>Проблема</p>
                 <p className='MontSemiBold Problem-object-main-little'>В сфере лечения ментальных заболеваний, не подразумевающего под собой круглосуточного наблюдения над пациентом, существует проблема коммуникации.</p>
                 <div className='Problem-object-point'>
-                    <img src={phone} alt=''></img>
+                    <img className='Problem-object-point-img' src={phone} alt=''></img>
                     <p className='MontRegular Problem-object-little'>Пациент не всегда может получить обратную связь от психотерапевта.</p>
                 </div>
                 <div className='Problem-object-point'>
-                    <img src={clock} alt=''></img>
+                    <img className='Problem-object-point-img' src={clock} alt=''></img>
                     <p className='MontRegular Problem-object-little'>Специалист может упустить какие-либо детали из-за ограниченного времени приёма.</p>
                 </div>
             </div>

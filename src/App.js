@@ -1,7 +1,8 @@
 import './App.css';
-import Face from './components/face/face';
 import Header from './components/header/header';
+import Face from './components/face/face';
 import Problem from './components/problem/problem';
+import Description from './components/description/description';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header></Header>
       <Face></Face>
       <Problem></Problem>
+      <Description></Description>
     </div>
   );
 }
