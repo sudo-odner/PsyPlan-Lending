@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Medium.otf')
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../../visual-components/font/Montserrat/Montserrat-Bold.otf')
+}
+
+.Through-object-text-detail{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -240px;
+}
+
+.Through-object-main{
+    margin-bottom: 340px;
+    text-align: center;
+    font-size: 99px;
+    font-family: "Montserrat-Bold";
+}
+
+.Through-object{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.Through-main-img{
+    max-width: 400px;
+    width: auto;
+    height: auto;
+    margin-top: -240px;
+}
+
+.Through-object-text{
+    color: black;
+    font-family: "Montserrat-Medium";
+    max-width: 400px;
+    font-size: 24px;
+}
+
+.Through-object-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Through-object-text-left{
+    margin-right: 60px;
+}
+
+.Through-object-text-fight{
+    margin-left: 60px;
+}
+
+@media (min-width: 425px) and (max-width: 700px) {
+    .Through-main-img{
+        max-width: 240px;
+    }
+    
+    .Through-object-text-detail{
+        width: 240px;
+        margin-top: -20px;
+    }
+
+    .Through-main-img{
+        margin-top: -20px;
+    }
+
+    .Through-object-text{
+        font-size: 20px;
+    }
+
+    .Through-object-text-left{
+        margin-right: 30px;
+    }
+    
+    .Through-object-text-fight{
+        margin-left: 30px;
+    }
+
+    .Through-object-main{
+        margin-bottom: 60px;
+        font-size: 46px;
+    }
+    .Through-object{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .Through-main-img{
+        max-width: 120px;
+    }
+    
+    .Through-object-text-detail{
+        width: 120px;
+        margin-top: -20px;
+    }
+
+    .Through-main-img{
+        margin-top: -20px;
+    }
+
+    .Through-object-text{
+        font-size: 14px;
+    }
+
+    .Through-object-text-left{
+        margin-right: 30px;
+    }
+    
+    .Through-object-text-fight{
+        margin-left: 30px;
+    }
+
+    .Through-object-main{
+        margin-bottom: 60px;
+        font-size: 46px;
+    }
+    .Through-object{
+        margin-top: 20px;
+    }
+}

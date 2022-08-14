@@ -3,6 +3,7 @@ import Header from './components/header/header';
 import Face from './components/face/face';
 import Problem from './components/problem/problem';
 import Description from './components/description/description';
+import Through from './components/through/through';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Face></Face>
       <Problem></Problem>
       <Description></Description>
+      <Through></Through>
     </div>
   );
 }
