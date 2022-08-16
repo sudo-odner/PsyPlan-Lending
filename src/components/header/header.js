@@ -3,6 +3,7 @@ import './header.css'
 import logo from '../../visual-components/image/logo.svg'
 import menu from '../../visual-components/image/menu.svg'
 import close from '../../visual-components/image/close.svg'
+import { createRef, useEffect } from 'react'
 
 function Header(){
     const burger_on = () => {
@@ -17,9 +18,14 @@ function Header(){
         elem.className = 'Header-burger';
         elem_back.className = 'Header-burger-background'
     }
+    const parentRef = createRef();
+
+    useEffect(() => {
+        window.parent = parentRef.current.getBoundingClientRect();
+    })
 
     return(
-        <div className='Header-background'>
+        <div ref={parentRef} className='Header-background'>
             <div className='Header-object'>
                 <dev className="Header-left-object">
                     <img className="Header-left-object-img" src={logo} alt=''></img>

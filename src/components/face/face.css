@@ -1,5 +1,5 @@
 .Face-background {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: linear-gradient( #19191900, #191919), url("../../visual-components/image/background.png");
     background-size: cover;
