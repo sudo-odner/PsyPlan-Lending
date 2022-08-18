@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/PsyPlan-Lending/static/css/main.2d0cef4d.css",
+    "main.js": "/PsyPlan-Lending/static/js/main.b0b30a26.js",
+    "static/media/background.png": "/PsyPlan-Lending/static/media/background.3ce4de5ac1b388cdaa98.png",
+    "static/media/example-1.png": "/PsyPlan-Lending/static/media/example-1.4cef864f6e356ef56295.png",
+    "static/media/through-4.png": "/PsyPlan-Lending/static/media/through-4.d1e2f7165bfb26a04917.png",
+    "static/media/example-2.png": "/PsyPlan-Lending/static/media/example-2.d3bb9e211835e2b60d9a.png",
+    "static/media/through-1.png": "/PsyPlan-Lending/static/media/through-1.57acd85361571ce77115.png",
+    "static/media/through-2.png": "/PsyPlan-Lending/static/media/through-2.eb948153b295c8393aee.png",
+    "static/media/through-3.png": "/PsyPlan-Lending/static/media/through-3.f2f3a8bd8279f9e5c366.png",
+    "static/media/Montserrat-Bold.otf": "/PsyPlan-Lending/static/media/Montserrat-Bold.a6bc51efd33e2f7f1b95.otf",
+    "static/media/Montserrat-ExtraBold.otf": "/PsyPlan-Lending/static/media/Montserrat-ExtraBold.08b61655390b457dfa8e.otf",
+    "static/media/Montserrat-SemiBold.otf": "/PsyPlan-Lending/static/media/Montserrat-SemiBold.b4f6721ba1a251742ea6.otf",
+    "static/media/Montserrat-Medium.otf": "/PsyPlan-Lending/static/media/Montserrat-Medium.4b4a4b36283ebeb2cf89.otf",
+    "static/media/Montserrat-Black.otf": "/PsyPlan-Lending/static/media/Montserrat-Black.502ad6d1b3ce1300943a.otf",
+    "static/media/Montserrat-Regular.otf": "/PsyPlan-Lending/static/media/Montserrat-Regular.65bc44fbf8204991497c.otf",
+    "static/media/Montserrat-Light.otf": "/PsyPlan-Lending/static/media/Montserrat-Light.8c76b7212dc892314701.otf",
+    "static/media/Montserrat-ExtraLight.otf": "/PsyPlan-Lending/static/media/Montserrat-ExtraLight.3566f38bec4521597c17.otf",
+    "static/media/Montserrat-Thin.otf": "/PsyPlan-Lending/static/media/Montserrat-Thin.d499418298509d45f4b2.otf",
+    "static/media/liza.png": "/PsyPlan-Lending/static/media/liza.454943a59ef111c04849.png",
+    "static/media/kirill.png": "/PsyPlan-Lending/static/media/kirill.cb7c77a1cb4d03fcb995.png",
+    "static/media/goga.png": "/PsyPlan-Lending/static/media/goga.012c0798d1a06a5e771c.png",
+    "static/media/danila.png": "/PsyPlan-Lending/static/media/danila.c9074288ab0bb36be45a.png",
+    "static/media/igor.png": "/PsyPlan-Lending/static/media/igor.b92af8dd6975f8ee2b67.png",
+    "static/media/nasta.png": "/PsyPlan-Lending/static/media/nasta.73688b9d38239141152c.png",
+    "static/media/logo.svg": "/PsyPlan-Lending/static/media/logo.3191a2f9cd4797643d481fe2bd1c40d6.svg",
+    "static/media/phone.svg": "/PsyPlan-Lending/static/media/phone.a4b24f9040993370863450cac8d3cb3a.svg",
+    "static/media/clock.svg": "/PsyPlan-Lending/static/media/clock.64b8594743a035d1c06f16826a8949c7.svg",
+    "static/media/menu.svg": "/PsyPlan-Lending/static/media/menu.f085cb1cbeb7f523fd880b85bb2500d7.svg",
+    "index.html": "/PsyPlan-Lending/index.html",
+    "static/media/close.svg": "/PsyPlan-Lending/static/media/close.cd143161e72e40bf500fbc77b4ec0c42.svg",
+    "main.2d0cef4d.css.map": "/PsyPlan-Lending/static/css/main.2d0cef4d.css.map",
+    "main.b0b30a26.js.map": "/PsyPlan-Lending/static/js/main.b0b30a26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0cef4d.css",
+    "static/js/main.b0b30a26.js"
+  ]
+}
