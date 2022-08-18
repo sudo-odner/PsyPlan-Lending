@@ -15,14 +15,12 @@ function About_US() {
         <div className="About_US-background">
             <div className="About_US-object">
                 <div className="About_US-object-first">
-                    <div className='About_US-object-dots'>
-                        <div className="Dots"><Link id="dot-1" className="Dot" to="usr-1" spy={true} smooth={true} offset={-70} duration={1000}></Link></div>
-                        <div className="Dots"><Link id="dot-2" className="Dot" to="usr-2" spy={true} smooth={true} offset={-70} duration={1200}></Link></div>
-                        <div className="Dots"><Link id="dot-3" className="Dot" to="usr-3" spy={true} smooth={true} offset={-70} duration={1400}></Link></div>
-                        <div className="Dots"><Link id="dot-4" className="Dot" to="usr-4" spy={true} smooth={true} offset={-70} duration={1600}></Link></div>
-                        <div className="Dots"><Link id="dot-5" className="Dot" to="usr-5" spy={true} smooth={true} offset={-70} duration={1800}></Link></div>
-                        <div className="Dots"><Link id="dot-6" className="Dot" to="usr-6" spy={true} smooth={true} offset={-70} duration={2000}></Link></div>
-                    </div>
+                    <div className="Dots"><Link id="dot-1" className="Dot" to="usr-1" spy={true} smooth={true} offset={-70} duration={1000}></Link></div>
+                    <div className="Dots"><Link id="dot-2" className="Dot" to="usr-2" spy={true} smooth={true} offset={-70} duration={1200}></Link></div>
+                    <div className="Dots"><Link id="dot-3" className="Dot" to="usr-3" spy={true} smooth={true} offset={-70} duration={1400}></Link></div>
+                    <div className="Dots"><Link id="dot-4" className="Dot" to="usr-4" spy={true} smooth={true} offset={-70} duration={1600}></Link></div>
+                    <div className="Dots"><Link id="dot-5" className="Dot" to="usr-5" spy={true} smooth={true} offset={-70} duration={1800}></Link></div>
+                    <div className="Dots"><Link id="dot-6" className="Dot" to="usr-6" spy={true} smooth={true} offset={-70} duration={2000}></Link></div>
                 </div>
                 <div className="About_US-object-second">
                     <div>{Element('usr-1', '#2F7B7F', 0, "Анастасия", "Юсова", Nasta, "Проджект-менеджер", "Санкт-Петербург, 17 лет", "Координирует весь процесс создания, представляет проект на конкурсах, отвечает на все вопросы и почти всегда на связи.", "Опыт в проектах: несколько индивидуальных исследовательских на различные темы и несколько групповых проектов, направленных на создание музейных экспозиций.", "Финалист Национальной Технологической Олимпиады 2022 по профилю Нейротехнологии и когнитивные науки. В 2022 году была участницей Всероссийской проектной школы NeuroCamp в ЗОЦ “Таватуй”.")}</div>

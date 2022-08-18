@@ -90,4 +90,7 @@
         max-width: 100vw;
         font-size: 14px;
     }
+    .Face-object{
+        padding: 0px 30px;
+    }
 }

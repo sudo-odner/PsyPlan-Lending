@@ -13,12 +13,16 @@ p{
 .Element-object-left{
     display: flex;
     margin-bottom: 25vh;
+    align-items:flex-start;
+    align-content:flex-start;
 }
 
 .Element-object-right{
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 25vh;
+    align-items:flex-start;
+    align-content:flex-start;
 }
 
 
@@ -27,11 +31,13 @@ p{
     font-family: "Montserrat-Bold";
     font-size: 36px;
     color: rgb(225, 225, 225, 1);
+    margin: 0;
 }
 .Element-object-text-main-s{
     font-family: "Montserrat-Bold";
     font-size: 36px;
     color: rgb(207, 203, 175, 1);
+    margin: 0;
 } 
 
 .Element-object-text-little-w{
@@ -88,12 +94,69 @@ p{
     margin-bottom: 30px;
 }
 
+@media (max-width: 1300px) {
+    .Element-object-text-main-w{
+        font-size: 26px;
+    }
+    .Element-object-text-main-s{
+        font-size: 26px;
+    } 
+    .Element-object-text-little-w{
+        font-size: 14px;
+    }
+    .Element-object-text-little-w-70{
+        font-size: 14px;
+    }
+}
 
+@media (max-width: 700px) {
+    .Element-object-left{
+        flex-direction: column;
+    }
+    .Element-object-right{
+        flex-direction: column;
+    }
 
+    .Element-obgect-first-left{
+        margin-bottom: 30px;
+    }
+    .Element-obgect-first-right{
+        margin-bottom: 30px;
+    }
+}
 
-
-
-
+@media (max-width: 420px) {
+    .Element-object-text-main-w{
+        font-size: 19px;
+    }
+    .Element-object-text-main-s{
+        font-size: 19px;
+    } 
+    .Element-object-text-little-w{
+        font-size: 12px;
+    }
+    .Element-object-text-little-w-70{
+        font-size: 12px;
+    }
+    .Element-obgect-first-left{
+        padding: 30px 40px 0px 30px;
+        max-width: 140px;
+        margin-bottom: 20px;
+    }
+    .Element-obgect-first-right{
+        padding: 30px 40px 0px 30px;
+        max-width: 140px;
+        margin-bottom: 20px;
+    }
+    .Element-person-status{
+        background-color: #173038;
+        border-radius: 20px;
+        display:flex;
+        flex-direction: column;
+        padding: 16px 20px 16px 20px;
+        margin-bottom: 30px;
+    }
+}
 
 
 

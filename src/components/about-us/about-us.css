@@ -6,12 +6,7 @@
 }
 
 .About_US-object-first{
-    min-width: 46px;
     margin-right: 30px;
-}
-
-.About_US-object-dots{
-    position: fixed;
 }
 
 .Dots{
@@ -53,4 +48,30 @@
 }
 #dot-6{
     background-color: #983C68;
+}
+
+@media (max-width: 420px) {
+    .About_US-object-first{
+        margin-right: 20px;
+    }    
+    .Dots{
+        width: 32px;
+        height: 32px;
+    }
+    .Dot{
+        width: 32px;
+        height: 32px;
+    }
+    .Dot:hover{
+        width: 20px;
+        height: 20px;
+        border: 6px solid rgb(39, 39, 39, 0.4);
+    }
+
+    .About_US-object{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+    }
 }
