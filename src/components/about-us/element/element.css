@@ -8,10 +8,6 @@
     src: url('../../../visual-components/font/Montserrat/Montserrat-Medium.otf')
 }
 
-p{
-    margin: auto;
-}
-
 .Element-object-left{
     display: flex;
     margin-bottom: 25vh;
