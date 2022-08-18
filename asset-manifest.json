@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PsyPlan-Lending/static/css/main.2d0cef4d.css",
-    "main.js": "/PsyPlan-Lending/static/js/main.b0b30a26.js",
+    "main.css": "/PsyPlan-Lending/static/css/main.17f02743.css",
+    "main.js": "/PsyPlan-Lending/static/js/main.ab04c275.js",
     "static/media/background.png": "/PsyPlan-Lending/static/media/background.3ce4de5ac1b388cdaa98.png",
     "static/media/example-1.png": "/PsyPlan-Lending/static/media/example-1.4cef864f6e356ef56295.png",
     "static/media/through-4.png": "/PsyPlan-Lending/static/media/through-4.d1e2f7165bfb26a04917.png",
@@ -30,11 +30,11 @@
     "static/media/menu.svg": "/PsyPlan-Lending/static/media/menu.f085cb1cbeb7f523fd880b85bb2500d7.svg",
     "index.html": "/PsyPlan-Lending/index.html",
     "static/media/close.svg": "/PsyPlan-Lending/static/media/close.cd143161e72e40bf500fbc77b4ec0c42.svg",
-    "main.2d0cef4d.css.map": "/PsyPlan-Lending/static/css/main.2d0cef4d.css.map",
-    "main.b0b30a26.js.map": "/PsyPlan-Lending/static/js/main.b0b30a26.js.map"
+    "main.17f02743.css.map": "/PsyPlan-Lending/static/css/main.17f02743.css.map",
+    "main.ab04c275.js.map": "/PsyPlan-Lending/static/js/main.ab04c275.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d0cef4d.css",
-    "static/js/main.b0b30a26.js"
+    "static/css/main.17f02743.css",
+    "static/js/main.ab04c275.js"
   ]
 }
