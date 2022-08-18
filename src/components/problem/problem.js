@@ -1,25 +1,26 @@
-import '../main.css'
+import '../css-copmponents/txt.css'
 import './problem.css'
-import phone from '../../deteils/image/phone.svg'
-import clock from '../../deteils/image/clock.svg'
+import phone from '../../visual-components/image/phone.svg'
+import clock from '../../visual-components/image/clock.svg'
+
 
 function Problem(){
     return(
-        <div className='Problem-back'>
-            <div className='Problem-main'>
-                <div className='MontBold S99 CW center-text down-100'>Проблема</div>
-                <div className='MontSemiBold S20 CW center-text down-100'>В сфере лечения ментальных заболеваний, не подразумевающего под собой круглосуточного наблюдения над пациентом, существует проблема коммуникации.</div>
-                <div className='first-problem down-60'>
-                    <img className='down-15' src={phone} alt=''></img>
-                    <div className='MontRegular S20 CW center-text'>Пациент не всегда может получить обратную связь от психотерапевта.</div>
+        <div className='Problem-background'>
+            <div className='Problem-object'>
+                <p className='MontBold S20 Problem-object-main'>Проблема</p>
+                <p className='MontSemiBold Problem-object-main-little'>В сфере лечения ментальных заболеваний, не подразумевающего под собой круглосуточного наблюдения над пациентом, существует проблема коммуникации.</p>
+                <div className='Problem-object-point'>
+                    <img className='Problem-object-point-img' src={phone} alt=''></img>
+                    <p className='MontRegular Problem-object-little'>Пациент не всегда может получить обратную связь от психотерапевта.</p>
                 </div>
-                <div className='second-problem down-60'>
-                    <img className='down-15' src={clock} alt=''></img>
-                    <div className='MontRegular S20 CW center-text'>Специалист может упустить какие-либо детали из-за ограниченного времени приёма. </div>
+                <div className='Problem-object-point'>
+                    <img className='Problem-object-point-img' src={clock} alt=''></img>
+                    <p className='MontRegular Problem-object-little'>Специалист может упустить какие-либо детали из-за ограниченного времени приёма.</p>
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 export default Problem;

@@ -1,21 +1,20 @@
-import '../main.css'
+import '../css-copmponents/txt.css'
 import './description.css'
-import phones from '../../deteils/image/phones.png'
+import example from '../../visual-components/image/example-2.png'
+
 
 function Description(){
     return(
-        <div className='Description-back'>
-            <div className='Description-main'>
-                <div className='Description-txt'>
-                    <p className="Description-txt-1 MontBold S50"><span className="MontBold S50 CM">Psy</span>Plan позволяет увеличить эффективность коммуникации психотерапевта с клиентом</p>
-                    <p className="Description-txt-2 MontSemiBold S16 CB-70">
-                        *За счёт ежедневного отслеживания ментального состояния пользователя с возможностью анализа состояния за выбранный период времени
-                    </p>
+        <div className="Description-bacground">
+            <div className="Description-object">
+                <div className='Description-object-text'>
+                    <p className='MontBold Description-object-text-first'><span className="MontBold CM" >Psy</span>Plan позволяет увеличить эффективность коммуникации психотерапевта с клиентом</p>
+                    <p className='MontSemiBold Description-object-text-second'>*За счёт ежедневного отслеживания ментального состояния пользователя с возможностью анализа состояния за выбранный период времени</p>
                 </div>
-                <img className='Description-img' src={phones} alt=''></img>
+                < div className='Description-object-img'><img className='Description-object-img-first' src={example} alt=''></img></div>
             </div>
         </div>
-    );
+    )
 }
 
 export default Description;
