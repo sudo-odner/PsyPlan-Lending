@@ -27,15 +27,15 @@ function Header(){
     return(
         <div ref={parentRef} className='Header-background'>
             <div className='Header-object'>
-                <dev className="Header-left-object">
+                <div className="Header-left-object">
                     <img className="Header-left-object-img" src={logo} alt=''></img>
-                </dev>
-                <dev className="Header-right-object">
+                </div>
+                <div className="Header-right-object">
                     <button className='Header-right-obgect-txt'>Команда</button>
                     <button className='Header-right-obgect-txt'>Описание</button>
                     <button className='Header-right-obgect-txt'>Контакты</button>
                     <button className='Header-right-obgect-phone' onClick={burger_on}><img src={menu} alt=''></img></button>
-                </dev>
+                </div>
             </div>
             <div id='burger-back' className='Headbackground'></div>
             <div id='burger-back' className='Header-burger-background'></div>

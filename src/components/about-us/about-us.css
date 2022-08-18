@@ -6,7 +6,12 @@
 }
 
 .About_US-object-first{
+    min-width: 46px;
     margin-right: 30px;
+}
+
+.About_US-object-dots{
+    position: fixed;
 }
 
 .Dots{
