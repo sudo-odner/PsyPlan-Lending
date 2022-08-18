@@ -1,0 +1,31 @@
+a {
+    color: rgb(225, 225, 225, 1);
+}
+
+.Down-background{
+    background-color: #0e1c20;
+    height: 25vh;
+}
+.Down-object{
+    max-width: 1440px;
+    height: 100%;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Down-object-text{
+    margin: 10px 0;
+}
+
+.Down-object-text-w{
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: rgb(225, 225, 225, 1);
+}
+.Down-object-text-w-70{
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: rgb(225, 225, 225, 0.7);
+}

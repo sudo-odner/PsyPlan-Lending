@@ -6,6 +6,7 @@ import Description from './components/description/description';
 import Through from './components/through/through';
 import Goal from './components/goal/goal';
 import About_US from './components/about-us/about-us';
+import Down from './components/down/down';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Through></Through>
       <Goal></Goal>
       <About_US></About_US>
+      <Down></Down>
     </div>
   );
 }
