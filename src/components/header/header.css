@@ -2,13 +2,12 @@
     font-family: "Montserrat-Medium";
     src: url('../../visual-components/font/Montserrat/Montserrat-Medium.otf')
 }
-
-
 button{
     border: none;
     outline: none;
     background: none;
 }
+
 
 .Header-background{
     position:absolute;
@@ -126,5 +125,4 @@ button{
         margin-bottom: 16px;
         display: block;
     }
-    
 }
